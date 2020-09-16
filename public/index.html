@@ -6,23 +6,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <ul class="pages">
-    <li class="chat page">
-      <div class="chatArea">
-        <ul class="messages"></ul>
-      </div>
-      <input class="inputMessage" placeholder="Digite sua mensagem aqui..."/>
-    </li>
-    <li class="login page">
-      <div class="form">
-        <h3 class="title"> Digite um nome de usuário </h3>
-        <input class="usernameInput" type="text" maxlength="14" />
-      </div>
-    </li>
-  </ul>
+    <video  autoplay id="video" style="width: 680; height: 320;"></video>
+    <img id="imgremoto" style="width: 450px; height: 350px;">
 
-  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="/main.js"></script>
+    <canvas id="preview" style="display: none;"></canvas>
+    <div id="logger"></div>
+
+    <input type="text" id="txtpeersignal">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js" defer></script>
 </body>
 </html>

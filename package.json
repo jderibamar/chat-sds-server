@@ -1,11 +1,9 @@
 {
   "name": "Socket.io_Exemplo",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
-  "scripts": 
-  {
-    "test": "echo \"Error: no test specified\" && exit 1",    
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
@@ -18,6 +16,17 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "log": "^6.0.0",
+    "simple-peer": "^9.7.2",
     "socket.io": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jderibamar/chat-sds-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jderibamar/chat-sds-server/issues"
+  },
+  "homepage": "https://github.com/jderibamar/chat-sds-server#readme",
+  "description": ""
 }
